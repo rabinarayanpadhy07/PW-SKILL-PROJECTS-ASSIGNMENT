@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: fixed;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(./Assets/background-image.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+nav {
+    margin: 0 4rem;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav div .navigation-list {
+    margin-top: 15px;
+    list-style-type: none;
+    display: flex;
+}
+
+nav div .navigation-list li {
+    color:grey;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 0 15px;
+}
+
+.logo-button {
+    display: flex;
+    align-items: center;
+}
+.left{
+    margin-left: 3rem;
+    margin-top: 6rem;
+    display: inline-block;
+}
+
+.left h1 {
+    font-size: 65px;
+    padding: 15px;
+}
+
+.left p{
+    padding: 15px;
+    font-size: 25px;
+    color: #666;
+}
+
+.button {
+    background: transparent;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    color: rgb(208, 20, 117);
+    border: 1px solid rgb(208, 20, 117);
+    font-size: 15px;
+    margin: 5px 10px;
+}
+
+.active {
+    color: #fff;
+    background-color: rgb(208, 20, 117);
+    ;
+}
+
+.button-container{
+    margin-left: 7px;
+    margin-bottom: 40px;
+}
+
+.footer-list ul :nth-child(1){
+    display: flex;
+    align-items: center;
+}
+
+.footer-list ul {
+    margin-left: 17px;
+    margin-top: 4rem;
+    list-style-type: none;
+    display: flex;
+    gap: 7px;
+    padding: 0 5px;
+}
+.right{
+    float: right;
+}
+
+.loan-button {
+    display: flex;
+    align-items: center;
+    border: none;
+    background-color: white;
+    color:grey;
+    border-radius: 50px;
+    font-size: 15px;
+    margin-top: 13px;
+    margin-left: 9%;
+    padding: 10px;
+    box-shadow: 5px 5px 20px 0px;
+}
+
+.house-loan {
+    margin-left: 75%;
+    margin-top: 5rem;
+}
+
+.loan-button span{
+    margin-left: 10px;
+}
+
+.hero{
+    position: relative;
+    top: 50%;
+    left: 45%;
+    transform: translate(-50%, -34%);
+}
+/* 
+Rabi Narayan Padhy 
+*/
