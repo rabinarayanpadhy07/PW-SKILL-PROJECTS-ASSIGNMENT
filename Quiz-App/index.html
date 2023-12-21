@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>Quiz App</title>
+</head>
+
+<body>
+	<div class="container">
+		<div class="quiz-box">
+			<div class="header">
+				<h2>Quiz App</h2>
+				<div class="">
+					<h5>Question <span class="question-no">1</span><span class="total-question">/10</span></h5>
+					<h5>Score: <span class="score">0</span></h5>
+				</div>
+			</div>
+			<div class="main-section">
+				<div class="question">
+					<h4 id="question"></h4>
+				</div>
+				<div class="options">
+					<input type="radio" name="answer" id="a" class="radioBtn">
+					<label for="a" id="optionA"></label>
+					<input type="radio" name="answer" id="b" class="radioBtn">
+					<label for="b" id="optionB"></label>
+					<input type="radio" name="answer" id="c" class="radioBtn">
+					<label for="c" id="optionC"></label>
+					<input type="radio" name="answer" id="d" class="radioBtn">
+					<label for="d" id="optionD"></label>
+				</div>
+				<div class="nextBtn">
+					<button class="btn">Next</button>
+				</div>
+			</div>
+			<div class="quiz-over none">
+				<h2>You scored <span class="final_score"></span>/10</h2>
+				<button class="btn_restart" style="margin-top: 20px;" onclick=restart()>Restart</button>
+			</div>
+		</div>
+	</div>
+	<script src="script.js"></script>
+</body>
+
+</html>
